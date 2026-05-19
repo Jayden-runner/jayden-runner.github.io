@@ -4,7 +4,8 @@ defaultContentLanguage = 'zh-cn'
 title = 'Liu Baohui'
 theme = 'hugo-PaperMod-master'
 
-paginate = 5
+[pagination]
+  pagerSize = 5
 
 [markup]
   [markup.highlight]
