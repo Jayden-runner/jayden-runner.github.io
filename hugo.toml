@@ -1,0 +1,65 @@
+baseURL = 'https://jayden-runner.github.io/'
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh-cn'
+title = 'Liu Baohui'
+theme = 'hugo-PaperMod-master'
+
+paginate = 5
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+    noClasses = false
+
+[[menu.main]]
+  name = '首页'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = '项目'
+  url = '/projects/'
+  weight = 2
+[[menu.main]]
+  name = '简历'
+  url = '/resume/'
+  weight = 3
+[[menu.main]]
+  name = '关于'
+  url = '/about/'
+  weight = 4
+
+[params]
+  author = 'Liu Baohui'
+  description = 'Physics × AI × Quant | Xiamen University'
+
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Liu Baohui 👋"
+    Content = """
+    厦门大学物理学本科（微专业：数据科学），2027 届毕业生。
+
+    我的技术根基在**数值方法、统计建模和深度学习**——从物理交叉科研中
+    积累了 PyTorch、数值计算、大规模数据处理的实际经验。
+
+    目前在 **算法/AI**、**量化金融**、**数据科学**、**AI 产品** 四个方向上探索机会。
+
+    [GitHub](https://github.com/Jayden-runner) · [Email](mailto:15110940797@163.com)
+    """
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/Jayden-runner'
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:15110940797@163.com'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
